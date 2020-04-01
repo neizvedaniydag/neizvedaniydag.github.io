@@ -1,0 +1,13 @@
+User-agent: Yandex
+Host: 
+Sitemap: http://neizvedaniydag.github.io/yandex_6cad7ca9e4b0514b.html/sitemap.xml
+Host: 
+Host: 
+Sitemap: http://neizvedaniydag.github.io/yandex_6cad7ca9e4b0514b.html/sitemap.xml
+Sitemap: http://neizvedaniydag.github.io/yandex_6cad7ca9e4b0514b.html/sitemap.xml
+Sitemap: http://neizvedaniydag.github.io/yandex_6cad7ca9e4b0514b.html/sitemap.xml
+Host: 
+Host: 
+Host: 
+Host: GitHub Inc.
+Host: GitHub Inc.
