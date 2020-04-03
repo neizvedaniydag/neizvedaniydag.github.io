@@ -31,7 +31,7 @@ li.none-bg {background:none!important;}
 .left ul li {background:url(images/m3.png) no-repeat bottom left;}
 .left ul li a {display:block; width:195px; color:#fff; text-decoration:none; padding:10px 5px 10px 40px; background: url(images/marker.png) no-repeat 10px 8px;}
 .left ul li a:hover {background:#ff9c00 url(images/marker.png) no-repeat 10px 8px;}
- margin-bottom: 5px; /*нижний внешний отступ*/
+ 
 
  /* Dropdown Button */
 
