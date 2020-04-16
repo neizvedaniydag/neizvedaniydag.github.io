@@ -1,0 +1,471 @@
+@charset "utf-8";
+
+tt {
+  padding: 1px 5px 1px;
+  margin: 0 1px;
+  background: #eaeaea;
+  background: rgba(0, 0, 0, .07);
+  font-size: 13px;
+  font-family: Consolas, Monaco, monospace;
+  unicode-bidi: embed;
+}
+pre {
+  padding: 15px 10px 1px;
+  margin: 0 1px;
+  background: #eaeaea;
+  background: rgba(0, 0, 0, .07);
+  font-size: 13px;
+  font-family: Consolas, Monaco, monospace;
+  unicode-bidi: embed;
+  max-width: 570px;
+}
+#ytfeedbackcontacts option {
+  color: #00a0d2;
+  font-weight: normal;
+}
+#ytfeedbackcontacts option:disabled {
+  color: graytext;
+  font-weight: normal;
+}
+#ytfeedbackcontacts option:first-child {
+  color: #32373c;
+  font-weight: normal;
+}
+.trbordertop {
+  border-top-width: 2px;
+  border-top-style: dashed;
+  border-top-color: #e7e2e2;
+}
+.postbox iframe {
+  max-width: 100%;
+}
+#yadonate {
+  color: #000;
+  cursor: pointer;
+  text-decoration: none;
+  background-color:#ffdb4d;
+  padding: 3px 26px 4px 25px;
+  font-size: 15px;
+  border-radius: 3px;
+  border: 1px solid rgba(0,0,0,.1);
+  transition: background-color .1s ease-out 0s;
+}
+#yadonate:hover {
+  background-color:#fc0;
+}
+#yadonate:focus,#yadonate:active {
+  outline:none;
+  box-shadow: none;
+}
+.alert-success {
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+  border: 1px solid #a9d6b3!important;
+}
+.alert-success a{
+  color: #155724;
+}
+.alert-success a:focus {
+  color: #124964;
+  box-shadow: none;
+  outline: 1px solid transparent;
+}
+.alert-success a:hover {
+  color: rgba(21, 87, 36, 0.8);
+}
+.alert-danger {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}
+.alert {
+  position: relative;
+  padding: 0px 10px 0px 10px;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  margin: 15px 6px 6px 6px;
+}
+.alert p {
+  margin: 17px 0 17px 0;
+  text-align: left;
+}
+td table {
+  width: auto;
+}
+.about li {
+  list-style-type: square;
+  margin: 5px 0px 3px 35px;
+}
+#close-donat {
+  float:right;
+  color:#cac0c0;
+}
+#close-donat:hover {
+  color:black;
+  cursor: pointer;
+}
+#close-about {
+  float:right;
+  color:#cac0c0;
+}
+#close-about:hover {
+  color:black;
+  cursor: pointer;
+}
+#restore-hide-blocks {
+  float:right;
+  color:#cac0c0;
+  margin-top:8px;
+} 
+#restore-hide-blocks:hover {
+  color:black;
+  cursor: pointer;
+}
+#showlistrss {
+  color: #0073aa;
+  transition-property: border,background,color;
+  transition-duration: .05s;
+  transition-timing-function: ease-in-out;
+  cursor: pointer;
+  text-decoration: underline;
+}
+#showlistrss:hover,#showlistrss:active {
+  color: #00a0d2;
+}
+.hide {
+  display:none;
+}
+.foptions #current-version {
+  font-size: 12px;
+  vertical-align: super;
+  font-weight: 600;
+}
+.types, .shortcodes {
+  margin-bottom: 6px;
+  display: table;
+}
+.xyztabs {
+  max-width: 100%;
+  margin: 0 0 20px;
+  box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+.xyztabs__caption {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  position: relative;
+  margin: -1px 0 0 -1px;
+}
+.xyztabs__caption li:last-child:before {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  right: -2px;
+  z-index: -1;
+  height: 5px;
+  background: #7DCA86;
+}
+.xyztabs__caption:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.xyztabs__caption li {
+  padding: 8px 12px;
+  margin: 1px 0 0 1px;
+  background: #f7f7f7;
+  color: #23282d;
+  position: relative;
+  border: solid #D8D8D8;
+  border-width: 1px 1px 0;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.4;
+}
+.xyztabs__caption li:not(.active) {
+  cursor: pointer;
+}
+.xyztabs__caption li:not(.active):hover {
+  background: #fefdfd;
+  border-color: #BDBDBD;
+}
+.xyztabs__caption .active {
+  background: #FFF;
+  color: #740303;
+}
+.xyztabs__caption .active:after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: #FFF;
+}
+.xyztabs__content {
+  display: none;
+  background: #FFF;
+  border: 1px solid #D8D8D8;
+  padding: 5px 12px 12px 12px;
+}
+.xyztabs__content.active {
+  display: block;
+}
+
+@media screen and (max-width: 650px) {
+  .xyztabs__caption li {flex: 1 0 auto;}
+}
+@media screen and (max-width: 1145px) {
+  .xyztabs__caption .active {overflow: hidden;}
+  .xyztabs__content.active {border-top:none;}
+  .xyztabs__caption li {border-bottom: 1px solid #e5e5e5;line-height: initial;}
+  .xyztabs__caption .active {font-weight: 400;line-height: initial;}
+}
+
+.tdcheckbox {
+  padding-top: 15px!important;
+}
+.new {
+  color: #fff;
+  background-color: #008ec2;
+  border-radius: 6px;
+  display: inline-block;
+  padding-left: 4px;
+  padding-right: 4px;
+  text-align: center;
+  font-size: 10px;
+  vertical-align: super;
+}
+
+/* блок выбора тегов begin */
+.tagify__dropdown__wrapper {
+  max-width: 484px;
+  padding: 2px 1px 3px 1px;
+  border: 1px solid #BDE0FF;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  box-shadow: none;
+  background: aliceblue;
+  border-radius: 3px;
+}
+.ytexcludetagslist-input,
+.ytexcludetagslist-input2 {
+  max-width: 484px;
+  padding: 2px 1px 3px 1px;
+  margin-bottom: 8px;
+  --tag-bg: #9d989838;
+  --tag-hover: #40a0ed63;
+  --tag-text-color: #23282d;
+  --tag-remove-bg: #c21c1c9e;
+  --tag-remove-btn-bg--hover: #940707c7;
+}
+.ytexcludetagslist-input .tagify__tag__removeBtn:hover+div>span {
+  opacity: 1;
+  color: #881010;
+}
+.ytexcludetagslist-input2 .tagify__tag__removeBtn:hover+div>span {
+  opacity: 1;
+  color: #881010;
+}
+.tagify__tag {
+  margin: 5px 1px 1px 5px;
+}
+.tagify__input {
+  min-width: 10px;
+  padding-left: 1px;
+  padding-right: 1px;
+  margin-top: 6px;
+  font-size: 12px;
+}
+.tags-look .tagify__dropdown__item {
+  display: inline-block;
+  border-radius: 3px;
+  padding: .3em .5em;
+  border: 1px solid #CCC;
+  background: #F3F3F3;
+  margin: 3px 0px 2px 5px;
+  font-size: .85em;
+  color: black;
+  transition: 0s;
+}
+.tags-look .tagify__dropdown__item--active {
+  color: black;
+}
+.tags-look .tagify__dropdown__item:hover {
+  background: lightyellow;
+  border-color: gold;
+}
+.tagify__tag>div>* {
+  line-height: 1.2;
+}
+/* блок выбора тегов end */
+
+/* блок восстановления css старого wordpress begin */
+.foptions .postbox {
+  border: 1px solid #D8D8D8;
+}
+.foptions .tagify,
+.foptions input[type=color],
+.foptions input[type=date],
+.foptions input[type=datetime-local],
+.foptions input[type=datetime],
+.foptions input[type=email],
+.foptions input[type=month],
+.foptions input[type=number],
+.foptions input[type=password],
+.foptions input[type=search],
+.foptions input[type=tel],
+.foptions input[type=text],
+.foptions input[type=time],
+.foptions input[type=url],
+.foptions input[type=week],
+.foptions select,
+.foptions textarea {
+  border: 1px solid #c4bfbf;
+  border-radius: 4px;
+}
+.foptions input[type=checkbox],
+.foptions input[type=radio] {
+  border: 1px solid #b4b9be;
+  border-radius: 3px;
+}
+.foptions .tagify--focus,
+.foptions input[type=checkbox]:focus,
+.foptions input[type=color]:focus,
+.foptions input[type=date]:focus,
+.foptions input[type=datetime-local]:focus,
+.foptions input[type=datetime]:focus,
+.foptions input[type=email]:focus,
+.foptions input[type=month]:focus,
+.foptions input[type=number]:focus,
+.foptions input[type=password]:focus,
+.foptions input[type=radio]:focus,
+.foptions input[type=search]:focus,
+.foptions input[type=tel]:focus,
+.foptions input[type=text]:focus,
+.foptions input[type=time]:focus,
+.foptions input[type=url]:focus,
+.foptions input[type=week]:focus,
+.foptions select:focus,
+.foptions textarea:focus {
+  border-color: #5b9dd9;
+  box-shadow: 0 0 2px rgba(30,140,190,.8);
+  outline: 2px solid transparent;
+}
+.foptions input[type=date],
+.foptions input[type=datetime-local],
+.foptions input[type=datetime],
+.foptions input[type=email],
+.foptions input[type=month],
+.foptions input[type=number],
+.foptions input[type=password],
+.foptions input[type=search],
+.foptions input[type=tel],
+.foptions input[type=time],
+.foptions input[type=url],
+.foptions input[type=week] {
+  padding: 0 0 0 8px;
+}
+.foptions .tagify:disabled,
+.foptions input:disabled,
+.foptions select:disabled,
+.foptions textarea:disabled {
+  background: rgba(255,255,255,.5)!important;
+  border-color: #D9D9D9!important;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,.04)!important;
+  color: rgba(51,51,51,.5)!important;
+}
+.foptions .mybutton {
+  color: #555;
+  border-color: #ccc;
+  background: #f7f7f7;
+  box-shadow: 0 1px 0 #ccc;
+  vertical-align: top;
+}
+.foptions .mybutton:active {
+  background: #eee;
+  border-color: #999;
+  box-shadow: inset 0 2px 5px -3px rgba(0,0,0,.5)!important;
+  transform: translateY(1px);
+}
+.foptions .mybutton:focus {
+  border-color: #5b9dd9;
+  box-shadow: 0 0 3px rgba(0,115,170,.8);
+  color: #23282d;
+}
+.foptions .mybutton:hover {
+  background: #fafafa;
+  border-color: #999;
+  color: #23282d;
+}
+.foptions .mybutton:disabled,
+.foptions .mybutton[disabled] {
+  color: #a0a5aa!important;
+  border-color: #ddd!important;
+  background: #f7f7f7!important;
+  box-shadow: none!important;
+  text-shadow: 0 1px 0 #fff!important;
+  cursor: default;
+  -webkit-transform: none!important;
+  transform: none!important;
+}
+.foptions .wp-editor-wrap .button,
+.foptions .wp-editor-wrap .button-secondary {
+  color: #555;
+  border-color: #ccc;
+  background: #f7f7f7;
+  box-shadow: 0 1px 0 #ccc;
+  vertical-align: top
+}
+.foptions .wp-editor-wrap .button-secondary:active,
+.foptions .wp-editor-wrap .button.active,
+.foptions .wp-editor-wrap .button.active:hover,
+.foptions .wp-editor-wrap .button:active {
+  background: #eee;
+  border-color: #999;
+  box-shadow: inset 0 2px 5px -3px rgba(0, 0, 0, .5);
+  transform: translateY(1px)
+}
+.foptions .wp-editor-wrap .button:active,
+.foptions .wp-editor-wrap .button:focus {
+  outline: 2px solid transparent;
+  outline-offset: 0
+}
+.foptions .wp-editor-wrap .button-secondary:focus,
+.foptions .wp-editor-wrap .button-secondary:hover,
+.foptions .wp-editor-wrap .button.focus,
+.foptions .wp-editor-wrap .button.hover,
+.foptions .wp-editor-wrap .button:hover,
+.foptions .wp-editor-wrap .button:focus {
+  background: #fafafa;
+  border-color: #999;
+  color: #23282d
+}
+.foptions .wp-editor-area,
+.foptions .wp-editor-area:active,
+.foptions .wp-editor-area:focus {
+  box-shadow: 0 0 2px rgba(30, 140, 190, 0)!important;
+  border: none!important;
+  border-radius: 0!important
+}
+.foptions .wp-editor-wrap #insert-media-button:focus,
+.foptions .wp-editor-wrap .button:focus {
+  border-color: #5b9dd9;
+  box-shadow: 0 0 3px rgba(0, 115, 170, .8)
+}
+.foptions .wp-editor-wrap .button-secondary:active,
+.foptions .wp-editor-wrap .button.active,
+.foptions .wp-editor-wrap .button.active:hover,
+.foptions .wp-editor-wrap .button:active {
+  background: #eee;
+  border-color: #999;
+  box-shadow: inset 0 2px 5px -3px rgba(0, 0, 0, .5);
+  transform: translateY(1px)
+}
+.foptions .wp-editor-wrap .mce-ico.mce-i-table {
+  margin-top: 2px;
+  height: 18px;
+}
+/* блок восстановления css старого wordpress end */
