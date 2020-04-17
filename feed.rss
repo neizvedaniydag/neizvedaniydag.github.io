@@ -1,15 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-		<!--	created with www.mysitemapgenerator.com	-->
-<rss version="2.0" xmlns:yandex="http://news.yandex.ru" xmlns:media="http://search.yahoo.com/mrss/" xmlns:turbo="http://turbo.yandex.ru">
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:turbo="http://turbo.yandex.ru" xmlns:yandex="http://news.yandex.ru">
 	<channel>
 		<title>Неизведанный Дагестан</title>
 		<link><![CDATA[https://neizvedaniydag.github.io]]></link>
 		<description>Неизведанный Дагестан</description>
 		<language>ru</language>
 		<pubDate>Fri, 17 Apr 2020 14:54:20 +0300</pubDate>
-		<generator>MySitemapGenerator (www.mysitemapgenerator.com)</generator>
-
-		<item turbo="true">
+		<generator>MySitemapGenerator (www.mysitemapgenerator.com)</generator><item turbo="true">
 			<guid isPermaLink="false">2268622768</guid>
 			<title>Климат и экология Махачкалы</title>
 			<link>https://neizvedaniydag.github.io/mvs.html</link>
