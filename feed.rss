@@ -3,7 +3,17 @@
 <rss version="2.0" xmlns:yandex="http://news.yandex.ru" xmlns:media="http://search.yahoo.com/mrss/" xmlns:turbo="http://turbo.yandex.ru">
 	<channel>
 		<title>Неизведанный Дагестан</title>
+		
 		<link><![CDATA[https://neizvedaniydag.github.io]]></link>
+		<turbo:content><![CDATA[<header><menu><a href='https://neizvedaniydag.github.io'>Главная</a><li></a></li></menu></header>
+ <menu>
+         <a href="https://neizvedaniydag.github.io/o-nas.html">О нас</a>
+         <a href="https://www.youtube.com/channel/UC-gIt8helxc8zi_aZoUc5LQ?view_as=subscriber">YouTube</a>
+         <a href="https://www.instagram.com/coptermavicpro2/">instagram</a>
+         <a href="https://neizvedaniydag.github.io/zabronirovat-stolik.html">Заказать съемку</a>
+         <a href="https://neizvedaniydag.github.io/kom.html">Комментарии</a>
+         <a href="https://neizvedaniydag.github.io/g.html">Контакты</a>
+        </menu>
 		<description>Неизведанный Дагестан</description>
 		<language>ru</language>
 		<pubDate>Fri, 17 Apr 2020 14:54:20 +0300</pubDate>
