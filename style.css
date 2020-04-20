@@ -277,5 +277,18 @@ div.right>p:nth-of-type(3) {
 }
 
 }
+html, body {
+       width: 100%;
+}
+#page {
+       /* максимальная ширина страницы - 600px */
+       width: 600px;
+}
 
+@media all and (max-width: 600px) {
+  #page {
+    /* максимальная ширина страницы - 100% - для телефонов */
+         width: 100%;
+  }
+}
 
