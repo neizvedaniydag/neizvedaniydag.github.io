@@ -506,8 +506,8 @@ div.block-menu {
 div.right>iframe {
   display : inline-block;
   position : relative;
- width : 630px;
-  height : 395px;
+ width : 405px;
+  height : 255px;
   top : -7px;
   left : 10px;
 }
