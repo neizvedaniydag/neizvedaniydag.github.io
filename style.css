@@ -590,6 +590,28 @@ div.right>p:nth-of-type(5) {
   position : relative !important;
   top : 14px;
 }
+/*kom*/
+ #vkwidget1 {
+  position : relative;
+  display : inline-block;
+  width : 502px;
+  height : 186px !important;
+  top : -19px;
+  left : -11px;
+}
+
+yatag.f24684628 {
+  top : 36px;
+  left : 15px;
+}
+
+#vk_comments {
+  width : 505px !important;
+}
+
+#basic {
+  width : 536px;
+}
 
 }
 /*вторая хрень*/
