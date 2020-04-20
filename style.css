@@ -551,6 +551,15 @@ div.right>p:nth-of-type(5)>img {
   left : 31px;
 }
 
+#basic {
+  width : 483px;
+}
+
+#content {
+  width : 678px;
+}
+
+
 /*ботлихский*/
 
 }
