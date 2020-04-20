@@ -152,7 +152,6 @@ div.block-menu>ul>li:nth-of-type(2)>a {
 div.bg-1>ul>li:nth-of-type(5)>a {
   position : relative;
   top : 0px;
-  width : 80px;
   left : -11px;
 }
 
@@ -237,8 +236,6 @@ div.right>img:nth-of-type(3) {
 
 #podval {
   width : 386px;
-  top : 35px;
-  left : 176px;
 }
 
 div.block-menu>ul>li:nth-of-type(3) {
@@ -273,14 +270,6 @@ div.block-menu>ul>li:nth-of-type(2)>a {
   font-size : 20px;
 }
 
-div.right>p:nth-of-type(1) {
-  font-size : 16px;
-}
-
-div.right>p:nth-of-type(2) {
-  font-size : 16px;
-}
-
 div.block-menu>ul>li:nth-of-type(6)>a {
   height : 23px;
 }
@@ -292,7 +281,6 @@ div.dropdown {
 button.dropbtn {
   height : 39px;
   top : 10px;
-  left : -2px;
 }
 
 div.block-menu>ul>li:nth-of-type(7)>a {
@@ -304,32 +292,10 @@ div.block-menu {
   width : 241px;
 }
 
-#left-menu {
-  top : -440px;
-  left : 156px;
-}
-
 div.bg-1 {
   width : 195px;
   top : -3px;
   left : -20px;
-}
-
-div.block-menu {
-  left : 221px;
-}
-
-div.block-nad-menu {
-  top : 55px;
-  left : 16px;
-  width : 449px;
-}
-
-div.block-menu {
-  top : 56px;
-}
-
-div.bg-1 {
   font-size : 20px;
 }
 
@@ -343,13 +309,10 @@ div.block-menu {
 
 #head-site>img {
   position : relative;
-  top : -4px;
-  left : 3px;
 }
 
 #head-site>a>img {
   position : relative;
-  top : -5px;
 }
 
 div.bg-2 {
@@ -440,6 +403,95 @@ div.right>p:nth-of-type(2) {
 
 div.right>p:nth-of-type(1) {
   left : 7px;
+  font-size : 18px;
+}
+
+div.right>p:nth-of-type(2) {
+  font-size : 18px;
+}
+
+#podval {
+  top : 33px;
+}
+
+#head-site>a>img {
+  height : 74px;
+  top : -14px;
+  width : 79px;
+}
+
+#head-site>img {
+  top : -11px;
+  left : -4px;
+}
+
+#podval {
+  left : 199px;
+}
+
+div.bg-1>ul>li:nth-of-type(4)>a {
+  position : relative;
+  top : 1px;
+  height : 50px;
+}
+
+#left-menu {
+  top : -384px;
+  left : 375px;
+}
+
+div.block-menu {
+  top : -1px;
+  left : 2px;
+}
+
+div.block-nad-menu {
+  top : -2px;
+  width : 457px;
+  left : -204px;
+}
+
+div.bg-1>ul>li:nth-of-type(6)>a {
+  position : relative;
+}
+
+div.bg-1>ul>li:nth-of-type(5)>a {
+  width : 149px;
+}
+
+div.bg-1>ul>li:nth-of-type(4)>a {
+  width : 153px;
+  left : -12px;
+}
+
+div.bg-1>ul>li:nth-of-type(3)>a {
+  position : relative;
+  left : -10px;
+  width : 151px;
+}
+
+div.bg-1>ul>li:nth-of-type(2)>a {
+  width : 152px;
+  position : relative;
+  left : -12px;
+}
+
+div.bg-1>ul>li:nth-of-type(1)>a {
+  height : 34px;
+  position : relative;
+  top : 6px;
+  width : 146px;
+  left : -8px;
+}
+
+div.bg-1>ul>li:nth-of-type(6)>a {
+  height : 34px;
+  top : -10px;
+  left : -10px;
+}
+
+button.dropbtn {
+  left : -12px;
 }
 
  
