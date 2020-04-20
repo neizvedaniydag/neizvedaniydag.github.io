@@ -171,10 +171,6 @@ div.right>img:nth-of-type(1) {
   position : relative;
 }
 
-div.yellow {
-  width : 350px;
-}
-
 div.right>img:nth-of-type(3) {
   position : relative;
 }
@@ -221,21 +217,6 @@ div.right {
 
 #content {
   width : 662px;
-}
-
-div.right>img:nth-of-type(1) {
-  width : 389px;
-  height : 195px;
-}
-
-div.right>img:nth-of-type(3) {
-  width : 389px;
-  height : 208px;
-  top : -8px;
-}
-
-#podval {
-  width : 386px;
 }
 
 div.block-menu>ul>li:nth-of-type(3) {
@@ -288,12 +269,7 @@ div.block-menu>ul>li:nth-of-type(7)>a {
   width : 188px;
 }
 
-div.block-menu {
-  width : 241px;
-}
-
 div.bg-1 {
-  width : 195px;
   top : -3px;
   left : -20px;
   font-size : 20px;
@@ -320,7 +296,6 @@ div.bg-2 {
 }
 
 #content {
-  top : -27px;
   left : -192px;
 }
 
@@ -383,15 +358,6 @@ button.dropbtn {
   font-size : 18px;
 }
 
-div.right>img:nth-of-type(1) {
-  top : -5px;
-  left : 6px;
-}
-
-div.right>img:nth-of-type(3) {
-  left : 8px;
-}
-
 div.right>p:nth-of-type(3) {
   left : 6px;
 }
@@ -410,25 +376,6 @@ div.right>p:nth-of-type(2) {
   font-size : 18px;
 }
 
-#podval {
-  top : 33px;
-}
-
-#head-site>a>img {
-  height : 74px;
-  top : -14px;
-  width : 79px;
-}
-
-#head-site>img {
-  top : -11px;
-  left : -4px;
-}
-
-#podval {
-  left : 199px;
-}
-
 div.bg-1>ul>li:nth-of-type(4)>a {
   position : relative;
   top : 1px;
@@ -440,14 +387,8 @@ div.bg-1>ul>li:nth-of-type(4)>a {
   left : 375px;
 }
 
-div.block-menu {
-  top : -1px;
-  left : 2px;
-}
-
 div.block-nad-menu {
   top : -2px;
-  width : 457px;
   left : -204px;
 }
 
@@ -492,6 +433,73 @@ div.bg-1>ul>li:nth-of-type(6)>a {
 
 button.dropbtn {
   left : -12px;
+}
+
+#podval {
+  width : 461px;
+  height : 14px;
+}
+
+#content {
+  top : -28px;
+}
+
+div.yellow {
+  width : 389px;
+  height : 8px;
+}
+
+div.right>img:nth-of-type(1) {
+  width : 461px;
+  height : 217px;
+}
+
+div.right>img:nth-of-type(3) {
+  width : 466px;
+  height : 230px;
+  top : -13px;
+}
+
+#podval {
+  top : 23px;
+  left : 189px;
+}
+
+div.block-nad-menu {
+  width : 488px;
+}
+
+div.block-menu {
+  top : -1px;
+  width : 268px;
+  left : 17px;
+}
+
+div.bg-1 {
+  width : 209px;
+}
+
+#head-site>img {
+  top : -23px;
+  left : -25px;
+  width : 185px;
+  height : 69px;
+}
+
+#head-site>a>img {
+  width : 87px;
+  height : 82px;
+  top : -20px;
+  left : -20px;
+}
+
+div.right>img:nth-of-type(1) {
+  top : -11px !important;
+  left : -3px !important;
+}
+
+div.right>img:nth-of-type(3) {
+  left : 5px !important;
 }
 
 
