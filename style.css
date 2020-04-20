@@ -196,11 +196,6 @@ body {
   width : 396px;
 }
 
-div.bg-2 {
-  top : -3px;
-  left : -317px;
-}
-
 div.right {
   width : 385px;
   right : 562px;
@@ -289,14 +284,6 @@ div.block-menu {
 
 #head-site>a>img {
   position : relative;
-}
-
-div.bg-2 {
-  width : 745px;
-}
-
-#content {
-  left : -192px;
 }
 
 #basic {
@@ -440,10 +427,6 @@ button.dropbtn {
   height : 14px;
 }
 
-#content {
-  top : -28px;
-}
-
 div.yellow {
   width : 389px;
   height : 8px;
@@ -471,7 +454,6 @@ div.block-nad-menu {
 
 div.block-menu {
   top : -1px;
-  width : 268px;
   left : 17px;
 }
 
@@ -501,6 +483,22 @@ div.right>img:nth-of-type(1) {
   top : -3px !important;
   left : -4px !important;
 }
+
+div.bg-2 {
+  width : 491px;
+  top : -2px;
+  left : -22px;
+}
+
+#content {
+  top : -26px;
+  left : -193px;
+}
+
+div.block-menu {
+  width : 258px;
+}
+
 
 
 
