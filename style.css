@@ -495,7 +495,74 @@ button.dropbtn {
 }
 
 
- 
+ /*махачкала*/
+ div.right>iframe {
+  display : inline-block;
+  position : relative;
+  height : 211px;
+  top : -7px;
+  left : 10px;
+  width : 430px;
+}
+
+div.right>p:nth-of-type(3) {
+  font-size : 18px;
+  width : 472px;
+  left : 1px;
+}
+
+body {
+  position : relative;
+  top : -2px;
+}
+
+div.right>p:nth-of-type(4) {
+  width : 476px;
+  font-size : 18px;
+}
+
+div.right>p:nth-of-type(5)>img {
+  position : relative;
+  top : 5px;
+  height : 268px;
+  width : 434px;
+  left : 11px;
+}
+
+div.right>p:nth-of-type(6) {
+  width : 460px;
+  font-size : 18px;
+}
+
+yatag.hf2f3e82d {
+  top : 23px;
+  height : 621px;
+}
+
+#id8209 {
+  position : relative !important;
+}
+
+#ya_partner_R-A-549581-1 {
+  top : 2px !important;
+  left : 236px !important;
+}
+
+#id8209 {
+  top : 1px;
+  left : -1px;
+}
+
+div.right>img {
+  top : -28px !important;
+  width : 415px !important;
+  height : 235px !important;
+  left : 16px !important;
+}
+
+body {
+  width : 493px;
+}
 
 /*ботлихский*/
 
