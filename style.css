@@ -97,7 +97,6 @@ div.bg-1 {
 
 div.block-menu {
   position : relative;
-  height : 369px;
 }
 
 div.block-menu>ul {
@@ -169,11 +168,6 @@ div.block-menu>ul>li:nth-of-type(2)>a {
   left : 140px;
 }
 
-div.block-menu {
-  top : 0px;
-  left : 0px;
-}
-
 div.bg-1>ul>li:nth-of-type(5)>a {
   position : relative;
   top : 0px;
@@ -187,7 +181,6 @@ div.bg-2 {
 
 div.block-nad-menu {
   position : relative;
-  left : -140px;
   width : 388px;
 }
 
@@ -201,24 +194,11 @@ div.right>img:nth-of-type(1) {
   top : -6px;
 }
 
-#menu-top {
-  width : 953px;
-}
-
-#podval {
-  width : 364px;
-}
-
 div.yellow {
   width : 350px;
 }
 
-div.right>img:nth-of-type(1) {
-  width : 371px;
-}
-
 div.right>img:nth-of-type(3) {
-  width : 364px;
   height : 188px;
   position : relative;
   top : -10px;
@@ -232,8 +212,6 @@ div.right>p:nth-of-type(3) {
 
 #content {
   position : relative;
-  top : -3px;
-  left : -29px;
 }
 
 div.bg-1 {
@@ -242,16 +220,8 @@ div.bg-1 {
   left : -29px;
 }
 
-div.right {
-  top : -6px;
-  left : -563px;
-  width : 379px;
-  right : 568px;
-}
-
 #podval {
   position : relative;
-  left : 18px;
 }
 
 body {
@@ -259,49 +229,73 @@ body {
 }
 
 div.bg-2 {
-  width : 409px;
   top : -3px;
   left : -317px;
 }
 
-div.right>p:nth-of-type(1) {
-  width : 363px;
+#basic {
+  width : 354px;
+}
+
+div.right {
+  width : 385px;
+  right : 562px;
 }
 
 div.right>p:nth-of-type(2) {
-  width : 359px;
+  width : 349px;
+}
+
+div.right>p:nth-of-type(1) {
+  width : 350px;
 }
 
 div.right>p:nth-of-type(3) {
-  width : 365px;
-}
-div.right>iframe {
-  display : inline-block;
-  width : 349px;
-  position : relative;
-  height : 203px;
-  top : 8px;
-  left : 2px;
+  width : 353px;
 }
 
-div.right>img:nth-of-type(2) {
-  width : 346px;
-  position : relative;
-  top : -1px;
-  left : 6px;
-  height : 200px;
+div.right>img:nth-of-type(3) {
+  width : 350px;
 }
 
-div.right>img:nth-of-type(4) {
-  height : 264px;
-  position : relative;
-  top : -1px;
-  left : -3px;
-  width : 381px;
+div.right>img:nth-of-type(1) {
+  width : 348px;
 }
 
-img.telefon {
-  display : none;
+#menu-top {
+  width : 376px;
+}
+
+div.bg-2 {
+  width : 676px;
+}
+
+div.right {
+  top : 43px;
+  left : -101px;
+}
+
+#content {
+  top : -30px;
+  left : -192px;
+  width : 662px;
+}
+
+div.block-nad-menu {
+  top : 25px;
+  left : 23px;
+}
+
+#podval {
+  top : 43px;
+  left : 179px;
+  width : 357px;
+}
+
+div.block-menu {
+  left : 162px;
+  height : 371px;
+  top : 25px;
 }
 
 }
