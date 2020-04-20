@@ -96,6 +96,7 @@ div.bg-1 {
 
 div.block-menu {
   position : relative;
+ width : 295px;1,20
 }
 
 div.block-menu>ul {
@@ -157,6 +158,7 @@ div.bg-1>ul>li:nth-of-type(5)>a {
 
 div.bg-2 {
   position : relative;
+ width : 523px;
 }
 
 div.block-nad-menu {
@@ -182,6 +184,8 @@ div.right>p:nth-of-type(3) {
 
 #content {
   position : relative;
+ top : -25px;
+  left : -193px;
 }
 
 div.bg-1 {
@@ -271,6 +275,7 @@ div.bg-1 {
 }
 
 div.block-nad-menu {
+ width : 524px;
   height : 12px;
 }
 
