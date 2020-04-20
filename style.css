@@ -385,7 +385,7 @@ div.right>h1 {
   position : relative;
 }
 
-div.right {
+#content>div:nth-of-type(2) {
   position : relative;
 }
 
@@ -441,11 +441,11 @@ div.block-menu>ul {
   top : 17px;
 }
 
-div.right {
+#content>div:nth-of-type(2) {
   height : 922px;
 }
 
-#content>div:nth-of-type(5) {
+#content>div:nth-of-type(6) {
   height : 13px;
 }
 
@@ -481,12 +481,12 @@ div.bg-1 {
   height : 339px;
 }
 
-div.right {
+#content>div:nth-of-type(2) {
   width : 368px;
   right : 313px;
 }
 
-#content>div:nth-of-type(5) {
+#content>div:nth-of-type(6) {
   width : 518px;
 }
 
@@ -519,7 +519,7 @@ yatag.a1ed9d38e {
   left : 531px;
 }
 
-div.right {
+#content>div:nth-of-type(2) {
   top : -9px;
   left : -153px;
 }
@@ -1084,7 +1084,7 @@ div.left {
   height : 656px;
 }
 
-div.right {
+#content>div:nth-of-type(2) {
   text-align : left;
   width : 508px;
   right : 173px;
@@ -1098,36 +1098,12 @@ div.right {
   left : -34px;
 }
 
-div.right>img:nth-of-type(3) {
-  top : 74px;
-  left : 103px;
-}
-
-div.right>p:nth-of-type(2) {
-  top : 81px;
-  left : 107px;
-}
-
-div.right>img:nth-of-type(1) {
-  top : 97px;
-  left : 106px;
-}
-
 div.right>h1 {
   left : 106px;
-}
-
-div.right>p:nth-of-type(1) {
-  top : 107px;
-  left : 105px;
-}
-
-div.right>h1 {
   top : 120px;
 }
 
 div.bg-1 {
-  top : 30px;
   left : 224px;
 }
 
@@ -1181,5 +1157,72 @@ div.block-menu>ul>li:nth-of-type(5)>a {
   position : relative;
   left : -12px;
 }
+
+div.bg-1 {
+  height : 336px;
+  top : 34px;
+}
+
+div.right>p:nth-of-type(2) {
+  top : -396px;
+  left : 82px;
+}
+
+div.right>p:nth-of-type(1) {
+  top : 212px;
+  left : 83px;
+}
+
+div.right>img:nth-of-type(1) {
+  top : 205px;
+  left : 83px;
+}
+
+div.right>img:nth-of-type(3) {
+  top : 274px;
+  left : 83px;
+}
+
+#content>p {
+  position : relative;
+}
+
+#content>div:nth-of-type(2) {
+  top : -153px;
+  left : 26px;
+}
+
+#content>div:nth-of-type(2)>h1 {
+  top : 120px;
+  left : 93px;
+}
+
+#basic {
+  height : 1444px;
+}
+
+#content>p {
+  top : 457px;
+  left : -23px;
+}
+
+#menu-top {
+  top : 171px;
+  left : 32px;
+}
+
+div.bg-1 {
+  height : 344px;
+  top : 26px;
+}
+
+div.block-nad-menu {
+  width : 329px;
+}
+
+#basic {
+  top : -136px;
+}
+
 
 }
