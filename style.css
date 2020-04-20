@@ -1187,42 +1187,159 @@ div.right>img:nth-of-type(3) {
   position : relative;
 }
 
-#content>div:nth-of-type(2) {
-  top : -153px;
-  left : 26px;
-}
-
-#content>div:nth-of-type(2)>h1 {
-  top : 120px;
-  left : 93px;
-}
-
-#basic {
-  height : 1444px;
-}
-
-#content>p {
-  top : 457px;
-  left : -23px;
+div.bg-1 {
+  height : 344px;
 }
 
 #menu-top {
-  top : 171px;
-  left : 32px;
-}
-
-div.bg-1 {
-  height : 344px;
-  top : 26px;
-}
-
-div.block-nad-menu {
-  width : 329px;
+  left : 89px;
+  width : 195px;
+  top : 170px;
 }
 
 #basic {
-  top : -136px;
+  left : -119px;
 }
 
+div.bg-1 {
+  top : -20px;
+}
 
+#basic {
+  top : -138px;
+}
+
+div.bg-1 {
+  left : 193px;
+}
+
+#content>div:nth-of-type(2) {
+  height : 813px;
+}
+
+#basic {
+  height : 1644px;
+}
+
+div.left {
+  left : 3px;
+  top : -1265px;
+}
+
+#content>div:nth-of-type(2) {
+  right : 358px;
+  width : 509px;
+}
+
+#content {
+  top : 170px;
+}
+
+#left-menu {
+  top : -26px;
+  width : 193px;
+  left : -6px;
+  height : 341px;
+}
+
+#podval {
+  top : -315px;
+}
+
+div.block-nad-menu {
+  width : 350px;
+}
+
+#basic {
+  right : 100px;
+}
+
+div.bg-2 {
+  top : -9px;
+  left : 13px;
+}
+
+#basic {
+  width : 445px;
+}
+
+#content>div:nth-of-type(2)>p:nth-of-type(2) {
+  top : -510px;
+  left : 155px;
+}
+
+#content>div:nth-of-type(2)>p:nth-of-type(1) {
+  top : 102px;
+  left : 154px;
+}
+
+#content>div:nth-of-type(2)>img:nth-of-type(1) {
+  top : 88px;
+  left : 154px;
+}
+
+#content>p {
+  width : 360px;
+  top : 430px;
+}
+
+#content>div:nth-of-type(2)>h1 {
+  top : 2px;
+  left : 237px;
+  width : 149px;
+}
+
+#content {
+  width : 368px;
+  left : 99px;
+}
+
+div.left {
+  height : 312px;
+}
+
+#menu-top {
+  height : 340px;
+}
+
+div.block-menu {
+  left : 1px;
+  height : 341px;
+  top : 38px;
+}
+
+div.block-nad-menu {
+  top : 38px;
+  left : 3px;
+}
+
+#content>div:nth-of-type(2)>img:nth-of-type(3) {
+  top : 169px;
+  left : 154px;
+}
+
+#content>p {
+  left : 3px;
+}
+
+#content>div:nth-of-type(2) {
+  top : -63px;
+  left : -10px;
+}
+
+#content {
+  height : 727px;
+}
+
+#head-site>img {
+  top : 86px !important;
+  left : 28px !important;
+}
+
+#head-site>a>img {
+  top : 83px;
+  left : 16px;
+  height : 86px;
+  width : 92px;
+}
 }
