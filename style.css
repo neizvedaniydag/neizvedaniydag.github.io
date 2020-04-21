@@ -91,7 +91,7 @@ li.none-bg {background:none!important;}
 /* tam nu eto ti sam ponyal*/
 @media (max-width: 600px) { 
 
- .container { width: 536px; margin:0 auto; }
+ 
 div.bg-1 {
   height : 376px;
 }
