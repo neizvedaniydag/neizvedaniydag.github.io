@@ -90,7 +90,7 @@ li.none-bg {background:none!important;}
 .p3 {float:right; width:30px; padding:15px 0 0 0;}
 /* tam nu eto ti sam ponyal*/
 @media (max-width: 600px) {
- body{ zoom: 58%}
+ body{ zoom: 65%}
 div.bg-1 {
   height : 376px;
 }
