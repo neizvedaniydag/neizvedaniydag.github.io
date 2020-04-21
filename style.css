@@ -89,16 +89,15 @@ li.none-bg {background:none!important;}
 .p2 {float:right; width:200px; text-align:right; padding:15px 20px 0 0;}
 .p3 {float:right; width:30px; padding:15px 0 0 0;}
 /* tam nu eto ti sam ponyal*/
-@media (max-width: 600px) {
+@media (max-width: 600px) { 
+
  body{ zoom: 65%}
- background-color: white;
 div.bg-1 {
   height : 376px;
 }
 
 div.block-menu {
   position : relative;
- width : 295px;1,20
 }
 
 div.block-menu>ul {
@@ -160,7 +159,6 @@ div.bg-1>ul>li:nth-of-type(5)>a {
 
 div.bg-2 {
   position : relative;
- width : 523px;
 }
 
 div.block-nad-menu {
@@ -186,8 +184,6 @@ div.right>p:nth-of-type(3) {
 
 #content {
   position : relative;
- top : -25px;
-  left : -193px;
 }
 
 div.bg-1 {
@@ -277,7 +273,6 @@ div.bg-1 {
 }
 
 div.block-nad-menu {
- width : 524px;
   height : 12px;
 }
 
@@ -504,9 +499,340 @@ div.bg-2 {
 
 div.block-menu {
   width : 258px;
+  width : 261px;
 }
 
+#head-site>img {
+  bottom : 28px;
+}
 
+#content {
+  width : 656px;
+}
+
+div.block-menu>ul {
+  position : relative;
+}
+
+#basic {
+  position : relative;
+}
+
+div.block-menu>ul {
+  height : 289px;
+  top : -1px;
+}
+
+div.bg-1>ul>li:nth-of-type(1)>a {
+  left : -4px;
+}
+
+div.bg-1>ul>li:nth-of-type(6)>a {
+  top : 2px;
+  left : -9px;
+}
+
+div.bg-1>ul>li:nth-of-type(5)>a {
+  top : 7px;
+  left : -13px;
+}
+
+div.bg-1>ul>li:nth-of-type(4)>a {
+  top : 4px;
+}
+
+div.bg-1>ul>li:nth-of-type(3)>a {
+  top : 5px;
+}
+
+div.bg-1>ul>li:nth-of-type(2)>a {
+  top : 4px;
+}
+
+div.bg-1 {
+  height : 372px;
+}
+
+div.right>p:nth-of-type(1) {
+  width : 532px;
+}
+
+div.right>p:nth-of-type(2) {
+  width : 536px;
+}
+
+div.block-menu {
+  left : -1px;
+}
+
+#left-menu {
+  top : -376px;
+  left : 166px;
+  height : 373px;
+}
+
+div.bg-1 {
+  left : 248px;
+}
+
+#left-menu {
+  width : 271px;
+}
+
+div.bg-1 {
+  top : 0px;
+}
+
+div.block-nad-menu {
+  height : 11px;
+}
+
+div.bg-1>ul>li:nth-of-type(1)>a {
+  height : 22px;
+  top : 6px;
+}
+
+div.block-menu {
+  height : 370px;
+  top : -9px;
+}
+
+div.block-nad-menu {
+  top : -9px;
+  left : -2px;
+  width : 473px;
+}
+
+div.bg-2 {
+  width : 464px;
+}
+
+#content {
+  height : 1040px;
+}
+
+div.right>p:nth-of-type(3) {
+  width : 525px;
+}
+
+div.right>img:nth-of-type(1) {
+  top : -3px !important;
+  left : 8px !important;
+  width : 500px;
+  height : 271px;
+}
+
+div.right>img:nth-of-type(3) {
+  top : -33px;
+  left : 10px !important;
+  width : 500px;
+  height : 264px;
+}
+
+div.right>p:nth-of-type(1) {
+  font-size : 20px;
+}
+
+div.right>p:nth-of-type(2) {
+  font-size : 20px;
+}
+
+div.right>p:nth-of-type(3) {
+  top : -23px;
+  left : 1px;
+}
+
+#podval {
+  top : 17px;
+  left : 195px;
+}
+
+#head-site>img {
+  width : 150px;
+  height : 50px;
+}
+
+#head-site>a>img {
+  left : -19px;
+  width : 68px;
+  height : 63px;
+  top : -18px;
+}
+
+#head-site>img {
+  top : -17px;
+  left : -17px;
+}
+
+#basic {
+  top : -2px;
+}
+
+div.bg-2 {
+  top : 0px;
+  height : 7px;
+}
+
+#content {
+  top : -23px;
+  left : -188px;
+}
+
+#basic {
+  height : 1561px;
+  width : 521px;
+}
+
+div.right>img:nth-of-type(3) {
+  width : 390px;
+  height : 207px;
+}
+
+div.right>p:nth-of-type(3) {
+  height : 67px;
+}
+
+div.right>img:nth-of-type(1) {
+  height : 228px;
+  width : 400px;
+}
+
+#basic {
+  width : 474px;
+  top : 42px;
+}
+
+button.dropbtn {
+  top : 13px;
+  left : 6px;
+}
+
+div.dropdown {
+  left : 17px;
+  top : 21px;
+  height : 76px;
+  width : 242px;
+}
+
+div.bg-1 {
+  height : 371px;
+}
+
+#podval {
+  width : 349px;
+}
+
+div.yellow {
+  width : 316px;
+}
+
+#menu-top {
+  position : relative;
+  width : 206px;
+  top : 44px;
+  left : 247px;
+}
+
+#head-site {
+  width : 419px;
+}
+
+div.block-nad-menu {
+  width : 459px;
+}
+
+#content {
+  width : 452px;
+  left : -3px;
+}
+
+div.right {
+  width : 422px;
+  right : 525px;
+  top : 30px;
+  left : -14px;
+}
+
+#content {
+  height : 953px;
+  top : 41px;
+}
+
+div.bg-1 {
+  top : -12px;
+}
+
+div.bg-2 {
+  top : -10px;
+  left : -267px;
+}
+
+#podval {
+  top : -402px;
+  left : 42px;
+}
+
+div.right>p:nth-of-type(1) {
+  width : 428px;
+}
+
+div.right>p:nth-of-type(2) {
+  width : 422px;
+}
+
+div.right>p:nth-of-type(3) {
+  width : 419px;
+}
+
+#head-site>a>img {
+  height : 82px;
+  width : 84px;
+}
+
+#head-site {
+  height : 81px;
+  position : relative;
+  top : -12px;
+}
+
+#head-site>a>img {
+  top : -2px;
+  left : 2px;
+}
+
+#head-site>img {
+  top : -5px;
+  left : 3px;
+}
+
+#basic {
+  height : 1587px;
+}
+
+div.left {
+  position : relative;
+  top : -913px;
+  left : -64px;
+}
+
+#left-menu {
+  top : -478px;
+  left : 44px;
+}
+
+div.block-menu {
+  top : -9px;
+  left : 0px;
+}
+
+div.bg-1 {
+  left : 1px;
+}
+
+div.block-nad-menu {
+  top : -9px;
+  left : 2px;
+}
 
 
  /*махачкала*/
