@@ -1047,13 +1047,6 @@ div.right>p:nth-of-type(3) {
 
 div.bg-2 {
   height : 10px;
-}
-
-div.block-menu {
-  left : 0px;
-}
-
-div.bg-2 {
   width : 552px;
 }
 
@@ -1063,16 +1056,6 @@ div.block-nad-menu {
 
 div.right>img:nth-of-type(3) {
   width : 524px;
-}
-
-div.block-nad-menu {
-  top : -66px;
-  left : 2px;
-}
-
-div.block-menu {
-  height : 372px;
-  top : -66px;
 }
 
 #basic {
@@ -1110,6 +1093,24 @@ div.block-menu {
   height : 0px;
 }
 
+#left-menu {
+  top : -537px;
+  left : 42px;
+}
+
+div.block-menu {
+  left : 3px;
+}
+
+div.block-nad-menu {
+  top : -6px;
+  left : 2px;
+}
+
+div.block-menu {
+  height : 371px;
+  top : -6px;
+}
 /*махачкала*/
 div.right>iframe {
   display : inline-block;
