@@ -983,7 +983,6 @@ div.block-menu>ul>li:nth-of-type(4)>a {
 div.block-menu>ul>li:nth-of-type(5)>a {
   font-size : 20px;
   top : 2px;
-  width : 209px;
   left : 2px;
 }
 
@@ -1001,11 +1000,6 @@ button.dropbtn {
 
 div.dropdown {
   font-size : 25px;
-}
-
-button.dropbtn {
-  top : 12px;
-  left : -9px;
 }
 
 div.bg-1 {
@@ -1065,11 +1059,6 @@ div.block-nad-menu {
   height : 0px;
 }
 
-div.block-nad-menu {
-  top : -6px;
-  left : 2px;
-}
-
 div.right {
   width : 532px;
   right : 415px;
@@ -1100,24 +1089,9 @@ div.right>p:nth-of-type(3) {
   left : -21px;
 }
 
-#basic {
-  width : 551px;
-}
-
 #content {
   height : 927px;
   top : 67px;
-}
-
-#left-menu {
-  top : -561px;
-  left : 41px;
-}
-
-div.block-menu {
-  left : 1px;
-  top : -6px;
-  height : 370px;
 }
 
 div.block-menu>ul>li:nth-of-type(7)>a {
@@ -1128,10 +1102,6 @@ div.block-menu>ul>li:nth-of-type(6)>a {
   width : 211px;
 }
 
-div.block-menu>ul>li:nth-of-type(4)>a {
-  width : 212px;
-}
-
 div.block-menu>ul>li:nth-of-type(3)>a {
   width : 216px;
 }
@@ -1139,6 +1109,71 @@ div.block-menu>ul>li:nth-of-type(3)>a {
 div.block-menu>ul>li:nth-of-type(1)>a {
   width : 211px;
 }
+
+#basic {
+  width : 589px;
+}
+
+div.block-menu>ul>li:nth-of-type(5)>a {
+  width : 222px;
+}
+
+div.block-menu>ul>li:nth-of-type(4)>a {
+  width : 213px;
+}
+
+#left-menu {
+  left : -18px;
+}
+
+div.left {
+  top : -1476px;
+  left : 12px;
+}
+
+#left-menu {
+  top : 3px;
+  height : 383px;
+}
+
+div.block-menu {
+  left : -13px;
+}
+
+div.block-nad-menu {
+  top : -8px;
+  left : -11px;
+}
+
+div.block-menu {
+  height : 371px;
+  top : -8px;
+}
+
+div.block-menu>ul>li:nth-of-type(7)>a {
+  height : 23px;
+}
+
+button.dropbtn {
+  left : -13px;
+}
+
+div.dropdown {
+  height : 76px;
+  top : 24px;
+  left : 11px;
+}
+
+div.block-menu>ul {
+  height : 301px;
+}
+
+button.dropbtn {
+  width : 248px;
+  height : 42px;
+  top : -2px;
+}
+
 
 /*махачкала*/
 div.right>iframe {
