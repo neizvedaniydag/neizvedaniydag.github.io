@@ -90,8 +90,6 @@ li.none-bg {background:none!important;}
 .p3 {float:right; width:30px; padding:15px 0 0 0;}
 /* tam nu eto ti sam ponyal*/
 @media (max-width: 600px) { 
-
- 
 div.bg-1 {
   height : 376px;
 }
@@ -1033,10 +1031,6 @@ div.right>img:nth-of-type(3) {
   left : -2px !important;
 }
 
-#basic {
-  height : 1687px;
-}
-
 div.right>p:nth-of-type(3) {
   width : 521px;
 }
@@ -1049,13 +1043,6 @@ div.right>p:nth-of-type(3) {
 #head-site>a>img {
   width : 138px;
   height : 138px;
-  top : 8px;
-  left : -18px;
-}
-
-#head-site>img {
-  top : 12px;
-  left : -19px;
 }
 
 div.bg-2 {
@@ -1089,12 +1076,41 @@ div.block-menu {
 }
 
 #basic {
-  width : 559px;
+  width : 596px;
 }
 
- 
+#head-site {
+  height : 153px;
+}
 
- /*махачкала*/
+#basic {
+  height : 1766px;
+}
+
+#head-site {
+  width : 425px;
+}
+
+#head-site>img {
+  top : 14px;
+  left : 13px;
+}
+
+#head-site>a>img {
+  top : 7px;
+  left : 12px;
+}
+
+#head-site {
+  top : 44px;
+  left : -9px;
+}
+
+#content>div:nth-of-type(5) {
+  height : 0px;
+}
+
+/*махачкала*/
 div.right>iframe {
   display : inline-block;
   position : relative;
