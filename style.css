@@ -894,8 +894,6 @@ div.right>img:nth-of-type(1) {
 
 #podval {
   width : 481px;
-  top : -393px;
-  left : 32px;
 }
 
 div.bg-1 {
@@ -1030,15 +1028,10 @@ div.right>p:nth-of-type(3) {
 
 div.bg-2 {
   height : 10px;
-  width : 552px;
 }
 
 div.block-nad-menu {
   width : 536px;
-}
-
-#basic {
-  height : 1766px;
 }
 
 #head-site {
@@ -1060,11 +1053,8 @@ div.block-nad-menu {
 }
 
 div.right {
-  width : 532px;
-  right : 415px;
   top : 22px;
   left : 86px;
-  height : 1069px;
 }
 
 div.right>img:nth-of-type(1) {
@@ -1110,10 +1100,6 @@ div.block-menu>ul>li:nth-of-type(1)>a {
   width : 211px;
 }
 
-#basic {
-  width : 589px;
-}
-
 div.block-menu>ul>li:nth-of-type(5)>a {
   width : 222px;
 }
@@ -1123,39 +1109,11 @@ div.block-menu>ul>li:nth-of-type(4)>a {
 }
 
 #left-menu {
-  left : -18px;
-}
-
-div.left {
-  top : -1476px;
-  left : 12px;
-}
-
-#left-menu {
-  top : 3px;
   height : 383px;
-}
-
-div.block-menu {
-  left : -13px;
-}
-
-div.block-nad-menu {
-  top : -8px;
-  left : -11px;
-}
-
-div.block-menu {
-  height : 371px;
-  top : -8px;
 }
 
 div.block-menu>ul>li:nth-of-type(7)>a {
   height : 23px;
-}
-
-button.dropbtn {
-  left : -13px;
 }
 
 div.dropdown {
@@ -1169,9 +1127,85 @@ div.block-menu>ul {
 }
 
 button.dropbtn {
-  width : 248px;
   height : 42px;
-  top : -2px;
+}
+
+#basic {
+  height : 1780px;
+}
+
+div.right {
+  height : 1162px;
+}
+
+div.left {
+  top : -1564px;
+}
+
+#left-menu {
+  top : -14px;
+  left : -53px;
+}
+
+div.left {
+  width : 211px;
+  left : 35px;
+}
+
+div.block-menu {
+  width : 255px;
+  left : 2px;
+  top : 3px;
+}
+
+div.block-nad-menu {
+  top : 3px;
+  left : 2px;
+}
+
+div.bg-2 {
+  width : 536px;
+  top : -7px;
+}
+
+div.block-menu {
+  height : 372px;
+}
+
+div.bg-2 {
+  left : -247px;
+}
+
+#content {
+  width : 470px;
+}
+
+div.right {
+  width : 541px;
+  right : 409px;
+}
+
+#podval {
+  top : -504px;
+  left : 30px;
+}
+
+#basic {
+  width : 560px;
+}
+
+button.dropbtn {
+  top : -1px;
+  left : -10px;
+}
+
+body {
+  width : 601px;
+  height : 1821px;
+}
+
+button.dropbtn {
+  width : 257px;
 }
 
 
