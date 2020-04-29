@@ -1699,17 +1699,19 @@ VK.Widgets.Comments("vk_comments", {limit: 20, width: "650", attach: "*"});
 </script>
             </div>
              <style>
-               .wcomments_head {
-  background: #4c281e !important;
-               }
-               /* цвет фона за формой отправки */
-#submit_post_box_wrap {
-  background: #4c281e !important;
-}
-/* цвет фона и шрифта для кнопки Отправить */
-.button_blue button, .button_blue.button_disabled button:active, .button_blue.button_disabled button.active, .button_blue.button_disabled button:hover, .button_blue.button_disabled button.hover {
-  background: #658ab0 !important;
-  color: #FFF !important;
+.wcomments_head {
+    background: #4c281e;
+    position: relative;
+    height: 40px;
+    line-height: 38px;
+    font-size: 13px;
+    font-weight: 500;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: auto;
+    color: #d3dde7;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
           </style>
            <!-- Левое меню - левый блок блок -->  <!-- Левое меню - левый блок блок -->
