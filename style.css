@@ -109,7 +109,6 @@ button.dropbtn {
 #blink7 {
   color: rgb(245,245,245);
   text-shadow: 0 -1px rgba(0,0,0,.1);
-  background: #4c281e;
   -webkit-animation: pulsate 1.2s linear infinite;
   animation: pulsate 1.2s linear infinite;
 }
