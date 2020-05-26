@@ -112,3 +112,27 @@ button.dropbtn {
   -webkit-animation: pulsate 1.2s linear infinite;
   animation: pulsate 1.2s linear infinite;
 }
+
+
+
+
+@media only screen and (min-width : 355px) and (max-width : 365px) {
+.dropbtn {
+    background-color: #4c281e;
+    padding: 8px;
+    font-size: 28px;
+    border: none;
+ }
+ .dropbtn {
+  background-color : rgb(76, 40, 30);
+  padding : 8px;
+  font-size : 28px;
+}
+
+#blink7 {
+  position : relative;
+  top : -13px;
+  left : 11px;
+}
+
+}
