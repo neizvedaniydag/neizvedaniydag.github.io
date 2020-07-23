@@ -717,3 +717,6 @@ right: 0;
 .lili{
   display: flex;
 }
+.text {
+    border-bottom: 1px solid black;
+}
