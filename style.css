@@ -720,3 +720,21 @@ right: 0;
 .text {
     border-bottom: 1px solid black;
 }
+::after {
+    font-size: 21px;
+}
+@media only screen and (min-width: 320px){
+h3{
+  font-size: 19px
+ }
+}
+@media only screen and (min-width: 375px){
+h3{
+  font-size: 23px;
+ }
+}
+@media only screen and (min-width:414px){
+h3{
+  font-size: 26px;
+ }
+}
