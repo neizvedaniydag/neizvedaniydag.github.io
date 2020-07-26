@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Пробное комментирование</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<script language="JavaScript" src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+	<script language="JavaScript" src="ecomment.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="ecomment.css" type="text/css" />
+	<style>
+		.wrapper{
+			width: 90%;
+			margin:0 auto;
+		}
+		p,ul{
+			margin-bottom: 20px;
+		}
+		.column{
+			float: left;
+			width: 45%;
+			margin-left: 4%;
+		}
+		.clearfix::after{
+			content:"";
+			clear: both;
+			height: 0;
+		}
+	</style>
+</head>
+<body>
+
+<div class="wrapper">
+	<p>На данной странице продемонстрировано двойное одновременное подключение скрипта eComment.
+	Для каждого блока комментариев выводится свой, независимый список сообщений.
+	Какой именно список будет выводиться, определяется параметром ref, который передается при инициализации.</p>
+</div>
+
+<div class="wrapper clearfix">
+	<div class="column" rel="some_ref_one"></div>
+	<div class="column" rel="some_ref_two"></div>
+	<script type="application/javascript">
+	$(document).ready(function(){
+
+		$('.column').each(function(){
+			$(this).ecomment({
+				ref : $(this).attr('rel')
+			});
+		})
+
+	});
+	</script>
+</div>
+
+</body>
+</html>
