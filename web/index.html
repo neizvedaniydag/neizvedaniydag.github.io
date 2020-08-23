@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" /> 
+ <meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Калькулятор</title>
+
+
+
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+<div id="calc-wrap">
+    <div id="calc">
+        <textarea id = inputVal>0</textarea>
+
+    </div>
+</div>
+
+<script>
+// код начнёт выполняться после загрузки страницы
+// когда окно загрузится, сработает метод window.onLoad
+window.addEventListener('load', function OnWindowLoaded() {
+    // набор кнопок
+    var signs = [
+        '1', '2', '3', '+',
+        '4', '5', '6', '-',
+        '7', '8', '9', '/',
+        '0', '=', '.', 'c'
+    ];
+ 
+    // форма калькулятора
+    var calc = document.getElementById('calc');
+ 
+    // текстовое поле с математическим выражением
+    var textArea = document.getElementById('inputVal');
+ 
+    // Добавление кнопок к форме калькулятора
+    signs.forEach(function (sign) {
+        var signElement = document.createElement('div');
+        signElement.className = 'btn';
+        signElement.innerHTML = sign;
+        calc.appendChild(signElement);
+    });
+ 
+    // проходит по всем кнопкам калькулятора
+    // добавляет обработчик на клик
+    document.querySelectorAll('#calc-wrap .btn').forEach(function (button) {
+        // Добавляем действие, выполняемое при клике на любую кнопку
+        button.addEventListener('click', onButtonClick);
+    });
+ 
+    // функция клика по кнопке калькулятора
+    function onButtonClick(e) {
+        // e - MouseEvent (содержит информацию о клике)
+        if (e.target.innerHTML === 'c') {
+            // Если нажата кнопка "с", то стирает все из текстового поля
+            textArea.innerHTML = '0';
+        } else if (e.target.innerHTML === '=') {
+            // Если нажата кнопка "=", то, приведя выражение
+            // в текстовом поле к javascript, вычислить значение
+            textArea.innerHTML = eval(textArea.innerHTML);
+        } else if (textArea.innerHTML === '0') {
+            // Если textarea содержит только "0", то
+            // стереть "0" и записать
+            // значения кнопки в текстовое поле
+            textArea.innerHTML = e.target.innerHTML;
+        } else {
+            // Добавление значения кнопки в текстовое поле
+            textArea.innerHTML += e.target.innerHTML;
+        }if (textArea.innerHTML === '29') {
+
+document.getElementById('inputVal').value = 'Islam PZR';
+setTimeout(function() {
+
+document.getElementById('inputVal').value='ERROR 404, Перезагрузите калькулятор';
+
+}, 1000);
+        }
+    }
+});
+
+/*
+if($("#inputVal").val().trim().length < 1)
+{
+    alert("Please Enter Text...");
+    return; 
+}*/
+</script>
+
+<style>
+    .btn {
+    padding-top: 5%;
+}
+    textarea{
+            margin-top: 0px;
+    margin-bottom: 0px;
+    height: 30.5%;
+    }
+    body {
+margin:0;
+}
+div {
+background: #fc0;
+    height: 100%;
+    color: white;
+    font-size: 150%;
+/*text-align:center;*/
+}
+    body.style_body
+     { height:100%;width: 100%}
+    body, html
+    {height:100%;width: 100%}
+    .btn {
+        width: 25%;
+        height: 14%;
+        background: #fc0;
+        display: inline-block;
+        text-align: center;
+        line-height: 60px;
+        user-select: none;
+    }
+ /*при наведении*/
+    .btn:hover {
+        background: #f70;
+        color: #fff;
+    }
+ 
+    #calc-wrap {
+/*height:350px;
+        width: 255px; */
+        margin: 0;
+
+
+    }
+ 
+    #calc {
+      /*  width: 280px;
+        display: inline-block;*/
+    }
+ 
+    #inputVal {
+        width: 98.9%;
+        border: 0;
+        font-size: 140%;
+        resize: vertical;
+    }
+    body{
+        margin: 0;
+    }
+    Alert{
+        width: 30px;
+    }
+    #calc-wrap {
+
+    text-align: center;
+
+}
+body{
+        background: grey;
+}
+</style>
+
+</body>
+
+</html>
