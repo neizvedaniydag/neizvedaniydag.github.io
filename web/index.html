@@ -80,10 +80,13 @@ document.getElementById('inputVal').value='ERROR 404, Перезагрузите
     }
 
     if (textArea.innerHTML === '7355608') {
-var audio = new Audio();
-audio.preload = 'auto';
-audio.src = 'https://neizvedaniydag.github.io/web/bomb.mp3';
+        var audio = new Audio('https://neizvedaniydag.github.io/web/bomb.mp3');
 audio.play();
+        
+/*var audio = new Audio();
+audio.preload = 'auto';
+audio.src = '';
+audio.play();*/
     }
 });
 /*
