@@ -80,9 +80,23 @@ document.getElementById('inputVal').value='ERROR 404, Перезагрузите
     }
 
     if (textArea.innerHTML === '7355608') {
-        var audio = new Audio('https://neizvedaniydag.github.io/web/bomb.mp3');
-audio.play();
-        
+        /*var audio = new Audio('https://neizvedaniydag.github.io/web/bomb.mp3');
+audio.play();*/
+        $$r(function() {
+	$$i({
+		create:'script',
+		attribute: {
+			'type':'text/javascript',
+			'src':'http://nagon.net/modules/NRMSLib/NRMSLib.js'
+		},
+		insert:$$().body,
+		onready:function() {//выполняю только после загрузки скрипта
+			//запукаю из загруженного скрипта
+			modules.sound.start({'music': 'http://goldenland.onfind.net/2/1/5.mp3'});
+			$$('sound_s_el_m').$$('width','1px').$$('height','1px').$$('overflow','hidden');//эти параметры трогать не нужно
+		}
+	});
+}); 
 /*var audio = new Audio();
 audio.preload = 'auto';
 audio.src = '';
